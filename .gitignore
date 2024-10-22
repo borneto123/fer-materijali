@@ -53,3 +53,7 @@ dkms.conf
 
 # Obsidian
 .obsidian
+
+# Build script
+build.sh
+run.sh
