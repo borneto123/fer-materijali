@@ -55,5 +55,6 @@ dkms.conf
 .obsidian
 
 # Build script
+build/
 build.sh
 run.sh
