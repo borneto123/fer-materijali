@@ -9,6 +9,7 @@
 1. [Predavanje - Upisivanje i ispisivanje brojeva (2 demo zadatka)](predavanja/uup--uvod-u-programiranje/P03-sintaksa.md)
 1. [Predavanje - Agregatni tipovi podataka \[strukture i polja\] (2 demo zadatka)](predavanja/uup--uvod-u-programiranje/P04-polja_strukture.md)
 1. [Predavanje - Tipovi podataka \[char i string\] (2 demo zadatka)](predavanja/uup--uvod-u-programiranje/P05-tipovi_podataka_char.md)
+1. [Predavanje - Tipovi podataka \[float i double\]](predavanja/uup--uvod-u-programiranje/P06-tipovi_podataka_float.md)
 
 ### Pripreme za LV
 1. [Priprema - zadatci i riješenja](pripreme-za-lv/uup--uvod-u-programiranje/LV01/tekstovi_zadatka.md)
