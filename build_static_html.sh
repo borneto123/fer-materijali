@@ -11,14 +11,6 @@ cp -r . ./build/
 # Remove build from itself
 rm -rf ./build/build
 
-# Code Highlighting themes:
-# github-dark, onedark, arduino, catppuccin-latte, catppuccin-frappe, monokailight, nord, xcode, xcode-dark, vs, pastie
-# Test and find more available themes on https://swapoff.org/chroma/playground/
-HL_THEME="catppuccin-latte"
-
-# Generate HTML from markdown files
-./gm **/*.md --move-no-md -o build --gm-highlighting $HL_THEME
-
 # Remove extra markdown files
 find ./build -name '*.md' -exec rm './{}' ';'
 
@@ -26,6 +18,14 @@ find ./build -name '*.md' -exec rm './{}' ';'
 find ./build -name '*.yml' -exec rm './{}' ';'
 rm -rf ./build/.git
 rm -f ./build/.gitignore
+
+# Code Highlighting themes:
+# github-dark, onedark, arduino, catppuccin-latte, catppuccin-frappe, monokailight, nord, xcode, xcode-dark, vs, pastie
+# Test and find more available themes on https://swapoff.org/chroma/playground/
+HL_THEME="catppuccin-latte"
+
+# Generate HTML from markdown files
+./gm **/*.md --move-no-md -o build --gm-highlighting $HL_THEME
 
 
 
