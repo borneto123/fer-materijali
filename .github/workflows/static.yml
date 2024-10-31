@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Compile
-        run: ../../build_static_html.sh
+        run: ls -alh
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
